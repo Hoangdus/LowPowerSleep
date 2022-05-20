@@ -1,7 +1,7 @@
 ARCHS = arm64 arm64e
 INSTALL_TARGET_PROCESSES = SpringBoard
-export DEBUG = 0
-export FINALPACKAGE = 1
+export DEBUG = 1
+export FINALPACKAGE = 0
 
 include /var/theos/makefiles/common.mk
 
